@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55A66DDA1A5F8736000035FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A66DD91A5F8736000035FF /* main.m */; };
+		55A66DDD1A5F8736000035FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A66DDC1A5F8736000035FF /* AppDelegate.m */; };
+		55A66DE31A5F8736000035FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55A66DE11A5F8736000035FF /* Main.storyboard */; };
+		55A66DE51A5F8736000035FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55A66DE41A5F8736000035FF /* Images.xcassets */; };
+		55A66DE81A5F8736000035FF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55A66DE61A5F8736000035FF /* LaunchScreen.xib */; };
+		AD08F03C1A5FE4D700DB5FBD /* SelectingBoxTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD08F03A1A5FE4D700DB5FBD /* SelectingBoxTableViewCell.m */; };
+		AD08F03D1A5FE4D700DB5FBD /* SelectingBoxTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD08F03B1A5FE4D700DB5FBD /* SelectingBoxTableViewCell.xib */; };
+		AD08F0441A5FF6F400DB5FBD /* half_selected_star.png in Resources */ = {isa = PBXBuildFile; fileRef = AD08F03E1A5FF6F400DB5FBD /* half_selected_star.png */; };
+		AD08F0451A5FF6F400DB5FBD /* half_selected_star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD08F03F1A5FF6F400DB5FBD /* half_selected_star@2x.png */; };
+		AD08F0461A5FF6F400DB5FBD /* not_selected_star.png in Resources */ = {isa = PBXBuildFile; fileRef = AD08F0401A5FF6F400DB5FBD /* not_selected_star.png */; };
+		AD08F0471A5FF6F400DB5FBD /* not_selected_star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD08F0411A5FF6F400DB5FBD /* not_selected_star@2x.png */; };
+		AD08F0481A5FF6F400DB5FBD /* selected_star.png in Resources */ = {isa = PBXBuildFile; fileRef = AD08F0421A5FF6F400DB5FBD /* selected_star.png */; };
+		AD08F0491A5FF6F400DB5FBD /* selected_star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD08F0431A5FF6F400DB5FBD /* selected_star@2x.png */; };
+		AD0ED8061A5F0C5B0085251F /* bg-1.png in Resources */ = {isa = PBXBuildFile; fileRef = AD0ED8001A5F0C5B0085251F /* bg-1.png */; };
+		AD0ED8071A5F0C5B0085251F /* bg-2.png in Resources */ = {isa = PBXBuildFile; fileRef = AD0ED8011A5F0C5B0085251F /* bg-2.png */; };
+		AD0ED8081A5F0C5B0085251F /* bg-3.png in Resources */ = {isa = PBXBuildFile; fileRef = AD0ED8021A5F0C5B0085251F /* bg-3.png */; };
+		AD0ED8091A5F0C5B0085251F /* bg-4.png in Resources */ = {isa = PBXBuildFile; fileRef = AD0ED8031A5F0C5B0085251F /* bg-4.png */; };
+		AD0ED80A1A5F0C5B0085251F /* logo-1.png in Resources */ = {isa = PBXBuildFile; fileRef = AD0ED8041A5F0C5B0085251F /* logo-1.png */; };
+		AD0ED80B1A5F0C5B0085251F /* bg-5.png in Resources */ = {isa = PBXBuildFile; fileRef = AD0ED8051A5F0C5B0085251F /* bg-5.png */; };
+		AD1091FD1A5FB52E00C79983 /* FinalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1091F51A5FB52E00C79983 /* FinalViewController.m */; };
+		AD1091FE1A5FB52E00C79983 /* FinalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD1091F61A5FB52E00C79983 /* FinalViewController.xib */; };
+		AD1091FF1A5FB52E00C79983 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1091F81A5FB52E00C79983 /* FirstViewController.m */; };
+		AD1092001A5FB52E00C79983 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD1091F91A5FB52E00C79983 /* FirstViewController.xib */; };
+		AD1092011A5FB52E00C79983 /* SurveyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1091FB1A5FB52E00C79983 /* SurveyViewController.m */; };
+		AD1092021A5FB52E00C79983 /* SurveyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD1091FC1A5FB52E00C79983 /* SurveyViewController.xib */; };
+		AD1092051A5FB54200C79983 /* QuestionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1092041A5FB54200C79983 /* QuestionModel.m */; };
+		AD1092141A5FB55E00C79983 /* ASStarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1092071A5FB55E00C79983 /* ASStarRatingView.m */; };
+		AD1092171A5FB55E00C79983 /* RatingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD10920C1A5FB55E00C79983 /* RatingTableViewCell.m */; };
+		AD1092181A5FB55E00C79983 /* RatingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD10920D1A5FB55E00C79983 /* RatingTableViewCell.xib */; };
+		AD1092191A5FB55E00C79983 /* RawTextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD10920F1A5FB55E00C79983 /* RawTextTableViewCell.m */; };
+		AD10921A1A5FB55E00C79983 /* RawTextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD1092101A5FB55E00C79983 /* RawTextTableViewCell.xib */; };
+		AD10921B1A5FB55E00C79983 /* YesNoQuestionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1092121A5FB55E00C79983 /* YesNoQuestionTableViewCell.m */; };
+		AD10921C1A5FB55E00C79983 /* YesNoQuestionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD1092131A5FB55E00C79983 /* YesNoQuestionTableViewCell.xib */; };
+		AD4ECFA81A60015700545245 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4ECFA11A60015700545245 /* TPKeyboardAvoidingCollectionView.m */; };
+		AD4ECFA91A60015700545245 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4ECFA31A60015700545245 /* TPKeyboardAvoidingScrollView.m */; };
+		AD4ECFAA1A60015700545245 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4ECFA51A60015700545245 /* TPKeyboardAvoidingTableView.m */; };
+		AD4ECFAB1A60015700545245 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4ECFA71A60015700545245 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55A66DEE1A5F8736000035FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55A66DCC1A5F8736000035FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55A66DD31A5F8736000035FF;
+			remoteInfo = ServeyiPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55A66DD41A5F8736000035FF /* SurveyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurveyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55A66DD81A5F8736000035FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55A66DD91A5F8736000035FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55A66DDB1A5F8736000035FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55A66DDC1A5F8736000035FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55A66DE21A5F8736000035FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55A66DE41A5F8736000035FF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		55A66DE71A5F8736000035FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		55A66DED1A5F8736000035FF /* SurveyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurveyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD08F0391A5FE4D700DB5FBD /* SelectingBoxTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectingBoxTableViewCell.h; sourceTree = "<group>"; };
+		AD08F03A1A5FE4D700DB5FBD /* SelectingBoxTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectingBoxTableViewCell.m; sourceTree = "<group>"; };
+		AD08F03B1A5FE4D700DB5FBD /* SelectingBoxTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectingBoxTableViewCell.xib; sourceTree = "<group>"; };
+		AD08F03E1A5FF6F400DB5FBD /* half_selected_star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = half_selected_star.png; sourceTree = "<group>"; };
+		AD08F03F1A5FF6F400DB5FBD /* half_selected_star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "half_selected_star@2x.png"; sourceTree = "<group>"; };
+		AD08F0401A5FF6F400DB5FBD /* not_selected_star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = not_selected_star.png; sourceTree = "<group>"; };
+		AD08F0411A5FF6F400DB5FBD /* not_selected_star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "not_selected_star@2x.png"; sourceTree = "<group>"; };
+		AD08F0421A5FF6F400DB5FBD /* selected_star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selected_star.png; sourceTree = "<group>"; };
+		AD08F0431A5FF6F400DB5FBD /* selected_star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected_star@2x.png"; sourceTree = "<group>"; };
+		AD0ED8001A5F0C5B0085251F /* bg-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-1.png"; sourceTree = "<group>"; };
+		AD0ED8011A5F0C5B0085251F /* bg-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-2.png"; sourceTree = "<group>"; };
+		AD0ED8021A5F0C5B0085251F /* bg-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-3.png"; sourceTree = "<group>"; };
+		AD0ED8031A5F0C5B0085251F /* bg-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-4.png"; sourceTree = "<group>"; };
+		AD0ED8041A5F0C5B0085251F /* logo-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-1.png"; sourceTree = "<group>"; };
+		AD0ED8051A5F0C5B0085251F /* bg-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-5.png"; sourceTree = "<group>"; };
+		AD1091F41A5FB52E00C79983 /* FinalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinalViewController.h; sourceTree = "<group>"; };
+		AD1091F51A5FB52E00C79983 /* FinalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinalViewController.m; sourceTree = "<group>"; };
+		AD1091F61A5FB52E00C79983 /* FinalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FinalViewController.xib; sourceTree = "<group>"; };
+		AD1091F71A5FB52E00C79983 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		AD1091F81A5FB52E00C79983 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		AD1091F91A5FB52E00C79983 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		AD1091FA1A5FB52E00C79983 /* SurveyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SurveyViewController.h; sourceTree = "<group>"; };
+		AD1091FB1A5FB52E00C79983 /* SurveyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SurveyViewController.m; sourceTree = "<group>"; };
+		AD1091FC1A5FB52E00C79983 /* SurveyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SurveyViewController.xib; sourceTree = "<group>"; };
+		AD1092031A5FB54200C79983 /* QuestionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionModel.h; sourceTree = "<group>"; };
+		AD1092041A5FB54200C79983 /* QuestionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionModel.m; sourceTree = "<group>"; };
+		AD1092061A5FB55E00C79983 /* ASStarRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASStarRatingView.h; sourceTree = "<group>"; };
+		AD1092071A5FB55E00C79983 /* ASStarRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASStarRatingView.m; sourceTree = "<group>"; };
+		AD10920B1A5FB55E00C79983 /* RatingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RatingTableViewCell.h; sourceTree = "<group>"; };
+		AD10920C1A5FB55E00C79983 /* RatingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RatingTableViewCell.m; sourceTree = "<group>"; };
+		AD10920D1A5FB55E00C79983 /* RatingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RatingTableViewCell.xib; sourceTree = "<group>"; };
+		AD10920E1A5FB55E00C79983 /* RawTextTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RawTextTableViewCell.h; sourceTree = "<group>"; };
+		AD10920F1A5FB55E00C79983 /* RawTextTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RawTextTableViewCell.m; sourceTree = "<group>"; };
+		AD1092101A5FB55E00C79983 /* RawTextTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RawTextTableViewCell.xib; sourceTree = "<group>"; };
+		AD1092111A5FB55E00C79983 /* YesNoQuestionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YesNoQuestionTableViewCell.h; sourceTree = "<group>"; };
+		AD1092121A5FB55E00C79983 /* YesNoQuestionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YesNoQuestionTableViewCell.m; sourceTree = "<group>"; };
+		AD1092131A5FB55E00C79983 /* YesNoQuestionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YesNoQuestionTableViewCell.xib; sourceTree = "<group>"; };
+		AD4ECFA01A60015700545245 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		AD4ECFA11A60015700545245 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		AD4ECFA21A60015700545245 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		AD4ECFA31A60015700545245 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		AD4ECFA41A60015700545245 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		AD4ECFA51A60015700545245 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		AD4ECFA61A60015700545245 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		AD4ECFA71A60015700545245 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55A66DD11A5F8736000035FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A66DEA1A5F8736000035FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55A66DCB1A5F8736000035FF = {
+			isa = PBXGroup;
+			children = (
+				55A66DD61A5F8736000035FF /* ServeyiPad */,
+				55A66DD51A5F8736000035FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55A66DD51A5F8736000035FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55A66DD41A5F8736000035FF /* SurveyApp.app */,
+				55A66DED1A5F8736000035FF /* SurveyAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55A66DD61A5F8736000035FF /* ServeyiPad */ = {
+			isa = PBXGroup;
+			children = (
+				AD1091F31A5FB42C00C79983 /* Models */,
+				AD1091F21A5FB3E300C79983 /* Controllers */,
+				AD1091F11A5FB3B100C79983 /* UIClass */,
+				AD0ED7FF1A5F0C480085251F /* Resources */,
+				55A66DDB1A5F8736000035FF /* AppDelegate.h */,
+				55A66DDC1A5F8736000035FF /* AppDelegate.m */,
+				55A66DE11A5F8736000035FF /* Main.storyboard */,
+				55A66DE41A5F8736000035FF /* Images.xcassets */,
+				55A66DE61A5F8736000035FF /* LaunchScreen.xib */,
+				55A66DD71A5F8736000035FF /* Supporting Files */,
+			);
+			path = ServeyiPad;
+			sourceTree = "<group>";
+		};
+		55A66DD71A5F8736000035FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55A66DD81A5F8736000035FF /* Info.plist */,
+				55A66DD91A5F8736000035FF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD0ED7FF1A5F0C480085251F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AD08F03E1A5FF6F400DB5FBD /* half_selected_star.png */,
+				AD08F03F1A5FF6F400DB5FBD /* half_selected_star@2x.png */,
+				AD08F0401A5FF6F400DB5FBD /* not_selected_star.png */,
+				AD08F0411A5FF6F400DB5FBD /* not_selected_star@2x.png */,
+				AD08F0421A5FF6F400DB5FBD /* selected_star.png */,
+				AD08F0431A5FF6F400DB5FBD /* selected_star@2x.png */,
+				AD0ED8001A5F0C5B0085251F /* bg-1.png */,
+				AD0ED8011A5F0C5B0085251F /* bg-2.png */,
+				AD0ED8021A5F0C5B0085251F /* bg-3.png */,
+				AD0ED8031A5F0C5B0085251F /* bg-4.png */,
+				AD0ED8041A5F0C5B0085251F /* logo-1.png */,
+				AD0ED8051A5F0C5B0085251F /* bg-5.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AD1091F11A5FB3B100C79983 /* UIClass */ = {
+			isa = PBXGroup;
+			children = (
+				AD1092061A5FB55E00C79983 /* ASStarRatingView.h */,
+				AD1092071A5FB55E00C79983 /* ASStarRatingView.m */,
+				AD10920B1A5FB55E00C79983 /* RatingTableViewCell.h */,
+				AD10920C1A5FB55E00C79983 /* RatingTableViewCell.m */,
+				AD10920D1A5FB55E00C79983 /* RatingTableViewCell.xib */,
+				AD10920E1A5FB55E00C79983 /* RawTextTableViewCell.h */,
+				AD10920F1A5FB55E00C79983 /* RawTextTableViewCell.m */,
+				AD1092101A5FB55E00C79983 /* RawTextTableViewCell.xib */,
+				AD1092111A5FB55E00C79983 /* YesNoQuestionTableViewCell.h */,
+				AD1092121A5FB55E00C79983 /* YesNoQuestionTableViewCell.m */,
+				AD1092131A5FB55E00C79983 /* YesNoQuestionTableViewCell.xib */,
+				AD08F0391A5FE4D700DB5FBD /* SelectingBoxTableViewCell.h */,
+				AD08F03A1A5FE4D700DB5FBD /* SelectingBoxTableViewCell.m */,
+				AD08F03B1A5FE4D700DB5FBD /* SelectingBoxTableViewCell.xib */,
+			);
+			path = UIClass;
+			sourceTree = "<group>";
+		};
+		AD1091F21A5FB3E300C79983 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD1091F41A5FB52E00C79983 /* FinalViewController.h */,
+				AD1091F51A5FB52E00C79983 /* FinalViewController.m */,
+				AD1091F61A5FB52E00C79983 /* FinalViewController.xib */,
+				AD1091F71A5FB52E00C79983 /* FirstViewController.h */,
+				AD1091F81A5FB52E00C79983 /* FirstViewController.m */,
+				AD1091F91A5FB52E00C79983 /* FirstViewController.xib */,
+				AD1091FA1A5FB52E00C79983 /* SurveyViewController.h */,
+				AD1091FB1A5FB52E00C79983 /* SurveyViewController.m */,
+				AD1091FC1A5FB52E00C79983 /* SurveyViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AD1091F31A5FB42C00C79983 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AD4ECF9F1A60015700545245 /* TPKeyboardAvoiding */,
+				AD1092031A5FB54200C79983 /* QuestionModel.h */,
+				AD1092041A5FB54200C79983 /* QuestionModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AD4ECF9F1A60015700545245 /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				AD4ECFA01A60015700545245 /* TPKeyboardAvoidingCollectionView.h */,
+				AD4ECFA11A60015700545245 /* TPKeyboardAvoidingCollectionView.m */,
+				AD4ECFA21A60015700545245 /* TPKeyboardAvoidingScrollView.h */,
+				AD4ECFA31A60015700545245 /* TPKeyboardAvoidingScrollView.m */,
+				AD4ECFA41A60015700545245 /* TPKeyboardAvoidingTableView.h */,
+				AD4ECFA51A60015700545245 /* TPKeyboardAvoidingTableView.m */,
+				AD4ECFA61A60015700545245 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				AD4ECFA71A60015700545245 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			path = TPKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55A66DD31A5F8736000035FF /* SurveyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55A66DF71A5F8736000035FF /* Build configuration list for PBXNativeTarget "SurveyApp" */;
+			buildPhases = (
+				55A66DD01A5F8736000035FF /* Sources */,
+				55A66DD11A5F8736000035FF /* Frameworks */,
+				55A66DD21A5F8736000035FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SurveyApp;
+			productName = ServeyiPad;
+			productReference = 55A66DD41A5F8736000035FF /* SurveyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55A66DEC1A5F8736000035FF /* SurveyAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55A66DFA1A5F8736000035FF /* Build configuration list for PBXNativeTarget "SurveyAppTests" */;
+			buildPhases = (
+				55A66DE91A5F8736000035FF /* Sources */,
+				55A66DEA1A5F8736000035FF /* Frameworks */,
+				55A66DEB1A5F8736000035FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55A66DEF1A5F8736000035FF /* PBXTargetDependency */,
+			);
+			name = SurveyAppTests;
+			productName = ServeyiPadTests;
+			productReference = 55A66DED1A5F8736000035FF /* SurveyAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55A66DCC1A5F8736000035FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Nguyen Ngoc Mai Thy";
+				TargetAttributes = {
+					55A66DD31A5F8736000035FF = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = W6AE4FC6J3;
+					};
+					55A66DEC1A5F8736000035FF = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 55A66DD31A5F8736000035FF;
+					};
+				};
+			};
+			buildConfigurationList = 55A66DCF1A5F8736000035FF /* Build configuration list for PBXProject "SurveyApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55A66DCB1A5F8736000035FF;
+			productRefGroup = 55A66DD51A5F8736000035FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55A66DD31A5F8736000035FF /* SurveyApp */,
+				55A66DEC1A5F8736000035FF /* SurveyAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55A66DD21A5F8736000035FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD08F0481A5FF6F400DB5FBD /* selected_star.png in Resources */,
+				AD10921A1A5FB55E00C79983 /* RawTextTableViewCell.xib in Resources */,
+				AD0ED8071A5F0C5B0085251F /* bg-2.png in Resources */,
+				AD1092001A5FB52E00C79983 /* FirstViewController.xib in Resources */,
+				AD08F0471A5FF6F400DB5FBD /* not_selected_star@2x.png in Resources */,
+				55A66DE31A5F8736000035FF /* Main.storyboard in Resources */,
+				AD0ED80A1A5F0C5B0085251F /* logo-1.png in Resources */,
+				AD08F0441A5FF6F400DB5FBD /* half_selected_star.png in Resources */,
+				AD08F0461A5FF6F400DB5FBD /* not_selected_star.png in Resources */,
+				AD1092021A5FB52E00C79983 /* SurveyViewController.xib in Resources */,
+				AD1091FE1A5FB52E00C79983 /* FinalViewController.xib in Resources */,
+				AD08F0451A5FF6F400DB5FBD /* half_selected_star@2x.png in Resources */,
+				AD0ED8091A5F0C5B0085251F /* bg-4.png in Resources */,
+				AD08F0491A5FF6F400DB5FBD /* selected_star@2x.png in Resources */,
+				AD10921C1A5FB55E00C79983 /* YesNoQuestionTableViewCell.xib in Resources */,
+				55A66DE81A5F8736000035FF /* LaunchScreen.xib in Resources */,
+				AD1092181A5FB55E00C79983 /* RatingTableViewCell.xib in Resources */,
+				55A66DE51A5F8736000035FF /* Images.xcassets in Resources */,
+				AD0ED8061A5F0C5B0085251F /* bg-1.png in Resources */,
+				AD0ED8081A5F0C5B0085251F /* bg-3.png in Resources */,
+				AD08F03D1A5FE4D700DB5FBD /* SelectingBoxTableViewCell.xib in Resources */,
+				AD0ED80B1A5F0C5B0085251F /* bg-5.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A66DEB1A5F8736000035FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55A66DD01A5F8736000035FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4ECFA91A60015700545245 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				AD1092141A5FB55E00C79983 /* ASStarRatingView.m in Sources */,
+				AD1091FD1A5FB52E00C79983 /* FinalViewController.m in Sources */,
+				AD1092011A5FB52E00C79983 /* SurveyViewController.m in Sources */,
+				AD4ECFAB1A60015700545245 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				AD1092051A5FB54200C79983 /* QuestionModel.m in Sources */,
+				AD08F03C1A5FE4D700DB5FBD /* SelectingBoxTableViewCell.m in Sources */,
+				55A66DDD1A5F8736000035FF /* AppDelegate.m in Sources */,
+				55A66DDA1A5F8736000035FF /* main.m in Sources */,
+				AD1092171A5FB55E00C79983 /* RatingTableViewCell.m in Sources */,
+				AD4ECFAA1A60015700545245 /* TPKeyboardAvoidingTableView.m in Sources */,
+				AD10921B1A5FB55E00C79983 /* YesNoQuestionTableViewCell.m in Sources */,
+				AD1091FF1A5FB52E00C79983 /* FirstViewController.m in Sources */,
+				AD4ECFA81A60015700545245 /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				AD1092191A5FB55E00C79983 /* RawTextTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A66DE91A5F8736000035FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55A66DEF1A5F8736000035FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55A66DD31A5F8736000035FF /* SurveyApp */;
+			targetProxy = 55A66DEE1A5F8736000035FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55A66DE11A5F8736000035FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55A66DE21A5F8736000035FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55A66DE61A5F8736000035FF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55A66DE71A5F8736000035FF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55A66DF51A5F8736000035FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55A66DF61A5F8736000035FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55A66DF81A5F8736000035FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ServeyiPad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = SurveyApp;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		55A66DF91A5F8736000035FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ServeyiPad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = SurveyApp;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		55A66DFB1A5F8736000035FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ServeyiPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = SurveyAppTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ServeyiPad.app/ServeyiPad";
+			};
+			name = Debug;
+		};
+		55A66DFC1A5F8736000035FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ServeyiPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = SurveyAppTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ServeyiPad.app/ServeyiPad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55A66DCF1A5F8736000035FF /* Build configuration list for PBXProject "SurveyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55A66DF51A5F8736000035FF /* Debug */,
+				55A66DF61A5F8736000035FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55A66DF71A5F8736000035FF /* Build configuration list for PBXNativeTarget "SurveyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55A66DF81A5F8736000035FF /* Debug */,
+				55A66DF91A5F8736000035FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55A66DFA1A5F8736000035FF /* Build configuration list for PBXNativeTarget "SurveyAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55A66DFB1A5F8736000035FF /* Debug */,
+				55A66DFC1A5F8736000035FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55A66DCC1A5F8736000035FF /* Project object */;
+}
